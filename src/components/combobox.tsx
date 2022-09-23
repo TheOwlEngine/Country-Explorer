@@ -105,7 +105,7 @@ export async function getCountries(
 ): Promise<[]> {
   const hasParent = Object.keys(parent).length > 0
   const resp = await fetch(
-    `https://owlengine.com/api/${entity}?limit=10${
+    `https://owlengine.com/api/${entity}?limit=6${
       field != ''
         ? `&${field}=${keyword}`
         : ''
