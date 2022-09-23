@@ -27,7 +27,7 @@ export default component$((props: ComboBoxProps) => {
 
         cleanup(() => controller.abort());
 
-        state.options = await getCountries(
+        state.options = await fetchAPI(
           props.entity,
           props.field,
           props.parent || {},
@@ -47,7 +47,7 @@ export default component$((props: ComboBoxProps) => {
           value={state.keyword}
           onFocus$={async () => {
             if (state.options.length == 0) {
-              state.options = await getCountries(
+              state.options = await fetchAPI(
                 props.entity,
                 '',
                 props.parent || {},
@@ -96,7 +96,7 @@ export default component$((props: ComboBoxProps) => {
   );
 });
 
-export async function getCountries(
+export async function fetchAPI(
   entity: string,
   field: string,
   parent: any,
