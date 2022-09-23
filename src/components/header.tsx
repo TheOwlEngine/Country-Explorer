@@ -8,7 +8,7 @@ export default component$(() => {
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <a href="#" class="mr-6 hover:text-gray-700">Home</a>
           <a href="https://github.com/TheOwlEngine/Country-Explorer" target="_blank" class="mr-6 hover:text-gray-700">GitHub Repository</a>
-          <a href="https://pagespeed.web.dev/report?url=https://demo.owlengine.com/country-explorer" target="_blank" class="hover:text-gray-700">PageSpeed Insight</a>
+          <a href="https://pagespeed.web.dev/report?url=https://country.owlengine.com" target="_blank" class="hover:text-gray-700">PageSpeed Insight</a>
         </nav>
         <a href="https://owlengine.com/" target="_blank" class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
           <Logo />
