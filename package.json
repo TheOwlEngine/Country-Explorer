@@ -15,7 +15,8 @@
     "fmt": "prettier --write .",
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
-    "preview": "qwik build preview && vite preview --open",
+    "preview": "qwik build preview && vite preview",
+    "deploy": "qwik build preview && vite preview --host",
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
