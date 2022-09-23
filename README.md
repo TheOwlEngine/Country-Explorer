@@ -1,12 +1,19 @@
-# Qwik App ⚡️
+<p align="center">
+  <a href="https://qwik.builder.io/" target="_blank">
+    <img src="https://camo.githubusercontent.com/3518364b161ab1351455c0f3774d01973e25602a4b63a3e9129c21deddb2f223/68747470733a2f2f63646e2e6275696c6465722e696f2f6170692f76312f696d6167652f617373657473253246594a494762346930316a7677305352644c3542742532463636376162366332323833643463346438373866623930383361616363313066" alt="Qwik" width="350" height="auto">
+  </a>
+</p>
+
+<p align="center">
+  The HTML-first framework
+</p>
+
+------
+## Qwik Community
 
 - [Qwik Docs](https://qwik.builder.io/)
-- [Discord](https://qwik.builder.io/chat)
 - [Qwik Github](https://github.com/BuilderIO/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
 - [Vite](https://vitejs.dev/)
-- [Partytown](https://partytown.builder.io/)
-- [Mitosis](https://github.com/BuilderIO/mitosis)
 - [Builder.io](https://www.builder.io/)
 
 ---
@@ -64,3 +71,24 @@ The production build should generate the client and server modules by running bo
 ```
 npm run build
 ```
+
+<br/>
+
+<p align="center">
+  <a href="https://tailwindcss.com/#gh-light-mode-only" target="_blank">
+    <img src="https://github.com/tailwindlabs/tailwindcss/raw/master/.github/logo-light.svg" alt="Tailwind CSS" width="350" height="70">
+  </a>
+  <a href="https://tailwindcss.com/#gh-dark-mode-only" target="_blank">
+    <img src="https://github.com/tailwindlabs/tailwindcss/raw/master/.github/logo-dark.svg" alt="Tailwind CSS" width="350" height="70">
+  </a>
+</p>
+
+<p align="center">
+  A utility-first CSS framework for rapidly building custom user interfaces.
+</p>
+
+------
+
+## Tailwind Documentation
+
+For full documentation, visit [tailwindcss.com](https://tailwindcss.com/).
